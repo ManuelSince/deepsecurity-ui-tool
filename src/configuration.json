@@ -1,0 +1,391 @@
+{
+  "tags": [
+  {
+    "name": "Administrators",
+    "description": "",
+    "path": "administrators",
+    "actions": [
+      ["List Administrators", "Describe an Administrator"],
+      ["Create an Administrator", "Modify an Administrator", "Search Administrators"],
+      ["Delete an Administrator"]],
+    "methods":["GET", "POST", "DEL"],
+    "isVisible": false
+  },
+  {
+    "name": "Administrator Roles",
+    "description": "",
+    "path": "roles",
+    "isVisible": false
+  },
+  {
+    "name": "Agent Deployment Scripts",
+    "description": "",
+    "path": "agentdeploymentscripts",
+    "isVisible": false
+  },
+  {
+    "name": "Agent Version Controls",
+    "description": "",
+    "path": "agentversioncontrolprofiles/{agentVersionControlProfileID}/agentversioncontrols",
+    "isVisible": false
+  },
+  {
+    "name": "Agent Version Control Profiles",
+    "description": "",
+    "path": "agentversioncontrolprofiles",
+    "isVisible": false
+  },
+  {
+    "name": "Anti-Malware Configurations",
+    "description": "",
+    "path": "",
+    "isVisible": false
+  },
+  {
+    "name": "API Keys",
+    "description": "",
+    "path": "",
+    "isVisible": false
+  },
+  {
+    "name": "API Usage",
+    "description": "",
+    "path": "",
+    "isVisible": false
+  },
+  {
+    "name": "Global Rules",
+    "description": "",
+    "path": "",
+    "isVisible": false
+  },
+  {
+    "name": "Application Types",
+    "description": "",
+    "path": "",
+    "isVisible": false
+  },
+  {
+    "name": "AWS Connectors",
+    "isVisible": false
+  },
+  {
+    "name": "AWS Connector Settings",
+    "isVisible": false
+  },
+  {
+    "name": "Certificates",
+    "isVisible": false
+  },
+  {
+    "name": "Computers",
+    "isVisible": false
+  },
+  {
+    "name": "Computer Firewall Rule Assignments",
+    "isVisible": false
+  },
+  {
+    "name": "Computer Firewall Rule Details",
+    "isVisible": false
+  },
+  {
+    "name": "Computer Groups",
+    "isVisible": false
+  },
+  {
+    "name": "Computer Integrity Monitoring Rule Assignments & Recommendations",
+    "isVisible": false
+  },
+  {
+    "name": "Computer Integrity Monitoring Rule Details",
+    "isVisible": false
+  },
+  {
+    "name": "Computer Intrusion Prevention Rule Assignments & Recommendations",
+    "isVisible": false
+  },
+  {
+    "name": "Computer Intrusion Prevention Application Type Details",
+    "isVisible": false
+  },
+  {
+    "name": "Computer Intrusion Prevention Rule Details",
+    "isVisible": false
+  },
+  {
+    "name": "Computer Log Inspection Rule Assignments & Recommendations",
+    "isVisible": false
+  },
+  {
+    "name": "Computer Log Inspection Rule Details",
+    "isVisible": false
+  },
+  {
+    "name": "Contacts",
+    "isVisible": false
+  },
+  {
+    "name": "Directory Lists",
+    "isVisible": false
+  },
+  {
+    "name": "Event Based Tasks",
+    "isVisible": false
+  },
+  {
+    "name": "File Extension Lists",
+    "isVisible": false
+  },
+  {
+    "name": "File Lists",
+    "isVisible": false
+  },
+  {
+    "name": "Firewall Rules",
+    "isVisible": false
+  },
+  {
+    "name": "GCP Connector Actions",
+    "isVisible": false
+  },
+  {
+    "name": "GCP Connectors",
+    "isVisible": false
+  },
+  {
+    "name": "Integrity Monitoring Rules",
+    "isVisible": false
+  },
+  {
+    "name": "Interface Types",
+    "isVisible": false
+  },
+  {
+    "name": "Intrusion Prevention Rules",
+    "isVisible": false
+  },
+  {
+    "name": "IP Lists",
+    "isVisible": false
+  },
+  {
+    "name": "Log Inspection Rules"
+  },
+  {
+    "name": "MAC Lists"
+  },
+  {
+    "name": "Policies"
+  },
+  {
+    "name": "Policy Firewall Rule Assignments"
+  },
+  {
+    "name": "Policy Firewall Rule Details"
+  },
+  {
+    "name": "Policy Integrity Monitoring Rule Assignments & Recommendations"
+  },
+  {
+    "name": "Policy Integrity Monitoring Rule Details"
+  },
+  {
+    "name": "Policy Intrusion Prevention Rule Assignments & Recommendations"
+  },
+  {
+    "name": "Policy Intrusion Prevention Application Type Details"
+  },
+  {
+    "name": "Policy Intrusion Prevention Rule Details"
+  },
+  {
+    "name": "Policy Log Inspection Rule Assignments & Recommendations"
+  },
+  {
+    "name": "Policy Log Inspection Rule Details"
+  },
+  {
+    "name": "Port Lists"
+  },
+  {
+    "name": "Report Templates"
+  },
+  {
+    "name": "Contexts"
+  },
+  {
+    "name": "Rulesets"
+  },
+  {
+    "name": "Schedules"
+  },
+  {
+    "name": "Scheduled Tasks"
+  },
+  {
+    "name": "Scripts"
+  },
+  {
+    "name": "System Settings"
+  },
+  {
+    "name": "Software Changes"
+  },
+  {
+    "name": "Software Inventories"
+  },
+  {
+    "name": "Stateful Configurations"
+  },
+  {
+    "name": "Tenants"
+  }
+],
+"colors": [
+  "#333333",
+  "#FFC300",
+  "#FF5733",
+  "#C70039",
+  "#900C3F",
+  "#581845",
+  "#48c9b0",
+  "#5dade2",
+  "#5499c7",
+  "#af7ac5",
+  "#ec7063",
+  "#7d6608",
+  "#b7950b",
+  "#117a65",
+  "#2874a6",
+  "#6c3483",
+  "#b03a2e",
+  "#48c9b0",
+  "#2980b9",
+  "#85c1e9",
+  "#bdc3c7",
+  "#e67e22",
+  "#d4ac0d",
+  "#b7950b",
+  "#333333",
+  "#FFC300",
+  "#FF5733",
+  "#C70039",
+  "#900C3F",
+  "#581845",
+  "#48c9b0",
+  "#5dade2",
+  "#5499c7",
+  "#af7ac5",
+  "#ec7063",
+  "#7d6608",
+  "#b7950b",
+  "#117a65",
+  "#2874a6",
+  "#6c3483",
+  "#b03a2e",
+  "#48c9b0",
+  "#2980b9",
+  "#85c1e9",
+  "#bdc3c7",
+  "#e67e22",
+  "#d4ac0d",
+  "#b7950b",
+  "#444444",
+  "#FFC300",
+  "#FF5733",
+  "#C70039",
+  "#900C3F",
+  "#581845",
+  "#48c9b0",
+  "#5dade2",
+  "#5499c7",
+  "#af7ac5",
+  "#ec7063",
+  "#7d6608",
+  "#b7950b",
+  "#117a65",
+  "#2874a6",
+  "#6c3483",
+  "#b03a2e",
+  "#48c9b0",
+  "#2980b9",
+  "#85c1e9",
+  "#bdc3c7",
+  "#e67e22",
+  "#d4ac0d",
+  "#b7950b",
+  "#333333",
+  "#FFC300",
+  "#FF5733",
+  "#C70039",
+  "#900C3F",
+  "#581845",
+  "#48c9b0",
+  "#5dade2",
+  "#5499c7",
+  "#af7ac5",
+  "#ec7063",
+  "#7d6608",
+  "#b7950b",
+  "#117a65",
+  "#2874a6",
+  "#6c3483",
+  "#b03a2e",
+  "#48c9b0",
+  "#2980b9",
+  "#85c1e9",
+  "#bdc3c7",
+  "#e67e22",
+  "#d4ac0d",
+  "#b7950b",
+  "#333333",
+  "#FFC300",
+  "#FF5733",
+  "#C70039",
+  "#900C3F",
+  "#581845",
+  "#48c9b0",
+  "#5dade2",
+  "#5499c7",
+  "#af7ac5",
+  "#ec7063",
+  "#7d6608",
+  "#b7950b",
+  "#117a65",
+  "#2874a6",
+  "#6c3483",
+  "#b03a2e",
+  "#48c9b0",
+  "#2980b9",
+  "#85c1e9",
+  "#bdc3c7",
+  "#e67e22",
+  "#d4ac0d",
+  "#b7950b",
+  "#444444",
+  "#FFC300",
+  "#FF5733",
+  "#C70039",
+  "#900C3F",
+  "#581845",
+  "#48c9b0",
+  "#5dade2",
+  "#5499c7",
+  "#af7ac5",
+  "#ec7063",
+  "#7d6608",
+  "#b7950b",
+  "#117a65",
+  "#2874a6",
+  "#6c3483",
+  "#b03a2e",
+  "#48c9b0",
+  "#2980b9",
+  "#85c1e9",
+  "#bdc3c7",
+  "#e67e22",
+  "#d4ac0d",
+  "#b7950b"
+]
+}
